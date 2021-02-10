@@ -1,3 +1,4 @@
+// 1 вариант
 function makeMessage (name, price) {
   // Пиши код ниже этой строки
    const message = `Вы выбрали ${name}, цена за штуку ${price} кредитов`;
@@ -5,6 +6,27 @@ function makeMessage (name, price) {
   return message;
 };
 
+
+// 2 вариант
+// function makeMessage (name, price) {
+//   // Пиши код ниже этой строки
+//    const message = `Вы выбрали ${name}, цена за штуку ${price} кредитов`;
+//   // Пиши код выше этой строки
+//   console.log(message);
+// };
+// makeMessage('Радар', 6150);
+
+// 3 вариант (аналогично 1 варианту, только с конкретными аргументами "радар..., сканер....")
+// function makeMessage (name, price) {
+//     // Пиши код ниже этой строки
+//      const message = `Вы выбрали ${name}, цена за штуку ${price} кредитов`;
+//     // Пиши код выше этой строки
+//     return message;
+//   };
+// console.log(makeMessage('Радар', 6150));
+// console.log(makeMessage('Сканер', 3500));
+// console.log(makeMessage('Реактор', 8000));
+// console.log(makeMessage('Двигатель', 4070));
 
 // Задание
 // Функция makeMessage(name, price) составляет и возвращает сообщение о покупке. Она объявляет два параметра, значения которых будут задаваться во время её вызова.
